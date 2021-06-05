@@ -1,0 +1,1 @@
+[ arg =  0, acc = 0, enter = {s} \ n -> s.arg <~ n, add = {s} ( var y = clone(s) ; s.acc <~ y.equals).equals <~ {s'} ( s'.acc + s'.arg), equals =  {s}  s.arg ].enter(5).equals

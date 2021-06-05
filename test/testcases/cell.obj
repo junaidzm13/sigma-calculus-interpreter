@@ -1,0 +1,1 @@
+[ contents =  0, set = {this} \ n ->  this.contents <~ n ].set(3).contents

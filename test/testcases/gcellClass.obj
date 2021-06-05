@@ -1,0 +1,1 @@
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n}; var gcell = class {get = {x} x.contents} extends cell; (new gcell).set(5).get

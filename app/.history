@@ -1,0 +1,43 @@
+:exit
+cd ..
+:run ../test/testcases/cellClass.obj
+:run ../test/testcases/gcellClass.obj
+:run ../test/testcases/uncellClass.obj
+[ contents =  0, set = {x} \ n -> var y = clone(x); (x.undo <~ y).contents <~  n, get = {this}  this.contents, undo = {this} this].set(5).set(6).undo.get
+(\ x -> x)(5+6)
+[ contents =  0, set = {this} \ n -> this.contents <~  n, get = {this}  this.contents].set(5).set(7).get
+[ contents =  0, set = {this} \ n ->  this.contents <~ n ].set(3).contents
+[ arg =  0, acc = 0, enter = {s} \ n -> s.arg <~ n, add = {s} ( var y = clone(s) ; s.acc <~ y.equals).equals <~ {s'} ( s'.acc + s'.arg),equals =  {s}  s.arg ].enter(5).add.enter(6).equals
+[ arg =  0, acc = 0, enter = {s} \ n -> s.arg <~ n, add = {s} ( var y = clone(s) ; s.acc <~ y.equals).equals <~ {s'} ( s'.acc + s'.arg), equals =  {s}  s.arg ].enter(5).add.equals
+[ arg =  0, acc = 0, enter = {s} \ n -> s.arg <~ n, add = {s} ( var y = clone(s) ; s.acc <~ y.equals).equals <~ {s'} ( s'.acc + s'.arg), equals =  {s}  s.arg ].enter(5).equals
+:exit
+:exit
+x + 2 * y
+var y = 5;
+var x = 10;
+:|
+x + 2 * y
+var y = 5;
+var x = 10;
+:|
+:exit
+:run ../test/testcases/calcEx3.obj
+:run ../test/testcases/calcEx2.obj
+:run ../test/testcases/calcEx1.obj
+:run ../test/testcases/calcEx3.obj
+:run ../test/testcases/calcEx3.obj
+:run ../test/testcases/calcEx2.obj
+:run ../test/testcases/calcEx1.obj
+:run ../test/testcases/calcEx1.obj
+:run test/testcases/calcEx1.obj
+:run test/testcases/calcX1.obj
+:run ../test/testcases/calcX1.obj
+var x = 10; x * 10
+:exit
+x + y
+var y = 2;
+;
+var x = 1
+:|
+1 + 2+ 4
+:exit

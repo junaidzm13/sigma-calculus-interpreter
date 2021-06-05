@@ -1,0 +1,1 @@
+[ contents =  0, set = {this} \ n -> this.contents <~  n, get = {this}  this.contents].set(5).set(7).get

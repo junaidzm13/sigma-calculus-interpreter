@@ -1,0 +1,9 @@
+:exit 
+:run ../test/testcases/calcEx1.obj
+:run ../test/testcases/lamcellClass.obj
+:run ../test/testcases/uncellClass.obj
+:run ../test/testcases/gcellClass.obj
+:run ../test/testcases/cellClass.obj
+:run ../test/testcases/calcEx1.obj
+:exit 
+:exit 

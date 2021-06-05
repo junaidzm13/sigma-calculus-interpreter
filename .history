@@ -1,0 +1,100 @@
+:exit 
+:exit 
+:exit 
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).f + 10
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).g
+:exit 
+:exit 
+:run test\\testcases\\gcell.obj
+:run test\\testcases\\cell.obj
+:run test\\testcases\\uncell.obj
+:run test\\testcases\\calcEx2.obj
+10 / 0
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).g
+:exit
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).g
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).f
+10 / 0
+:run test\\testcases\\calcEx3.obj
+:run test\\testcases\\calcEx2.obj
+:run test\\testcases\\calcEx1.obj
+:run test\\testcases\\lam.obj
+:run test\\testcases\\uncell.obj
+:run test\\testcases\\gcell.obj
+:run test\\testcases\\cell.obj
+:run test\\testcases\\cellClass.obj
+:run test\\testcases\\gcellClass.obj
+:run test\\testcases\\uncellClass.obj
+10 + 40
+10 / 0
+:exit 
+x + y
+var y = 20;
+var x = 10;
+:|
+:run test\\testcases\\uncell.obj
+:run test\\testcases\\uncellClass.obj
+:run test\\testcases\\gcell.obj
+:run test\\testcases\\cell.obj
+:exit
+:exit 
+10 / 10
+10 / 0
+:exit 
+x / 0
+x / 0
+10 / 0
+:exit 
+:q
+var cell = true; x
+var cell = true; cell / 0
+var cell = 10; cell / 0
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).f
+:exit 
+:run test\\testcases\\lam.obj 
+:exit 
+:exit 
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).f
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n, f = {x} x}; (new cell).sf
+var cell = class {contents = {x} 0, set = {x} \ n -> x.contents <~ n}; (new cell).set(3).contents
+:exit 
+:exit 
+:run test\\testcases\\calcEx1.obj 
+:exit 
+:run test\\testcases\\calcEx3.obj
+:run test\\testcases\\calcEx2.obj
+:run test\\testcases\\calcEx1.obj
+:run test\\testcases\\lam.obj
+:run test\\testcases\\gcellClass.obj
+:run test\\testcases\\cellClass.obj
+:run test\\testcases\\uncellClass.obj
+:run test\\testcases\\uncell.obj
+:run test\\testcases\\cell.obj
+:run test\\testcases\\gcell.obj
+:exit 
+:run test\\testcases\\gcell.obj
+:run test\\testcases\\gcellClass.obj
+:run test\\testcases\\uncellClass.obj
+:run test\\testcases\\uncell.obj
+:exit 
+:run test\\testcases\\calcEx1.obj 
+:exit
+:run test\\testcases\\calcEx1.obj 
+:exit 
+:run test/testcases/lam.obj
+:run test/testcases/uncell.obj
+:run test/testcases/cell.obj
+:run test/testcases/gcell.obj
+:run test/testcases/gcellClass.obj
+:run test/testcases/cellClass.obj
+:run test/testcases/uncellClass.obj
+:run test/testcases/uncell.obj
+:run test/testcase/uncell.obj
+:exit
+:exit
+:run test/testcases/uncell.obj
+:run test/testcase/uncell.obj
+:run test/testcases/calcEx2.obj
+:run test/testcase/uncell.obj
+:exit
+:exit

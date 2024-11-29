@@ -1,4 +1,4 @@
-# SigmaCalculusInterpreter
+# Sigma Calculus Interpreter
 
 A sigma calculus based interpreter implemented using Haskell and related underlying programming concepts i.e.
 - Monads (Stateful and Checked Monad)
